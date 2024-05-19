@@ -1,0 +1,104 @@
+{
+  "banks": {
+    "Тинькофф": {
+      "name": "Тинькофф",
+      "limit": 0.0,
+      "cashbackEarned": 0.0,
+      "cards": [
+        "Тинькофф МИР"
+      ],
+      "currentCashback": {
+        "Тинькофф МИР": {
+          "Рестораны": {
+            "percent": 5.0,
+            "permanent": false
+          },
+          "Дом и Ремонт": {
+            "percent": 5.0,
+            "permanent": false
+          },
+          "Остальное": {
+            "percent": 1.0,
+            "permanent": true
+          }
+        }
+      },
+      "futureCashback": {}
+    },
+    "Банк Санкт-Петербург": {
+      "name": "Банк Санкт-Петербург",
+      "limit": 3000.0,
+      "cashbackEarned": 0.0,
+      "cards": [
+        "Банк Санкт-Петербург"
+      ],
+      "currentCashback": {
+        "Банк Санкт-Петербург": {
+          "ЖД билеты": {
+            "percent": 7.0,
+            "permanent": true
+          },
+          "Остальное": {
+            "percent": 1.5,
+            "permanent": true
+          }
+        }
+      },
+      "futureCashback": {}
+    },
+    "Альфа": {
+      "name": "Альфа",
+      "limit": 2000.0,
+      "cashbackEarned": 0.0,
+      "cards": [
+        "Альфа Кредитка",
+        "Альфа МИР"
+      ],
+      "currentCashback": {
+        "Альфа Кредитка": {
+          "Рестораны": {
+            "percent": 3.0,
+            "permanent": false
+          },
+          "Заправки": {
+            "percent": 5.0,
+            "permanent": true
+          }
+        },
+        "Альфа МИР": {
+          "Заправки": {
+            "percent": 5.0,
+            "permanent": true
+          },
+          "ЖД билеты": {
+            "percent": 3.0,
+            "permanent": false
+          },
+          "Остальное": {
+            "percent": 1.0,
+            "permanent": true
+          }
+        }
+      },
+      "futureCashback": {}
+    },
+    "TestBank": {
+      "name": "TestBank",
+      "limit": 1000.0,
+      "cashbackEarned": 25.0,
+      "cards": [
+        "TestCard"
+      ],
+      "currentCashback": {
+        "TestCard": {
+          "Рестораны": {
+            "percent": 5.0,
+            "permanent": false
+          }
+        }
+      },
+      "futureCashback": {}
+    }
+  },
+  "transactions": []
+}
